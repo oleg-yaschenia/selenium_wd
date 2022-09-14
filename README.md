@@ -1,2 +1,2 @@
 # selenium_wd
-test repository
+Autotest repository (Python).
