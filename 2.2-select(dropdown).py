@@ -12,8 +12,7 @@ try:
     x2 = browser.find_element(By.ID, "num2").text
     x = str(int(x1) + int(x2))
     print(x)
-    2.2 - select(dropdown).py
-    select = Select(browser.find_element(By.TAG_NAME, "select"))
+    select = Select(browser.find_element(By.CSS_SELECTOR, ".custom-select"))
     select.select_by_value(x)  # ищем элемент с текстом "Python"
 
 
